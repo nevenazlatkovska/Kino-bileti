@@ -1,0 +1,158 @@
+2021-07-01 13:12:43.2053|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 13:12:53.6807|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 13:12:53.7223|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 13:12:53.7363|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 13:17:49.5445|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 13:17:54.2247|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 13:17:54.2562|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 13:17:54.3413|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 13:47:33.1371|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 13:47:36.8979|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 13:47:36.9014|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 13:47:36.9014|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 14:15:36.6369|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 14:15:39.9442|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 14:15:39.9488|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 14:15:39.9488|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 14:41:08.6258|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 14:41:12.4155|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 14:41:12.4200|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 14:41:12.4200|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 15:10:42.6365|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 15:10:47.0239|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 15:10:47.0290|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 15:10:47.0418|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 15:18:02.8270|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 15:18:08.1663|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 15:18:08.1866|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 15:18:08.1990|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 15:18:16.7551|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 15:18:54.7386|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 15:19:03.8343|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 15:19:03.8589|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 15:19:11.8009|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 15:19:17.5293|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 15:19:17.5419|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 16:05:37.0310|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 16:05:40.8609|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 16:05:40.8609|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 16:05:40.8730|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 17:26:23.4640|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 17:26:26.7922|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 17:26:26.8119|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 17:26:26.8251|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 17:32:30.4285|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 17:32:33.9251|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 17:32:33.9251|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 17:32:33.9411|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 17:44:19.4224|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 17:44:23.2621|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 17:44:23.2621|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 17:44:23.2786|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 17:51:05.8226|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 17:51:09.2293|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 17:51:09.2331|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 17:51:09.2444|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 18:10:54.8820|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 18:11:00.7180|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 18:11:00.7180|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 18:11:00.7326|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 19:05:10.6113|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 19:05:14.3065|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 19:05:14.3120|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 19:05:14.3239|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 19:14:32.5909|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 19:14:36.9331|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 19:14:36.9331|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 19:14:36.9487|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 19:44:34.5126|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 19:44:37.3091|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 19:44:37.3091|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 19:44:37.3293|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 19:49:08.3646|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User b582be49-e01e-4737-9b5a-4d1e43402b35 password validation failed: PasswordRequiresUpper. 
+2021-07-01 19:51:33.0279|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 19:51:36.4278|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 19:51:36.4326|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 19:51:36.4326|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 19:52:05.4756|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User 47359ab8-8191-406f-b71b-8a3bfadaad5f password validation failed: PasswordRequiresUpper. 
+2021-07-01 19:52:05.4847|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User feb3aef6-b564-403e-b8fa-b553f23f38af password validation failed: PasswordRequiresUpper. 
+2021-07-01 19:59:24.6002|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 19:59:27.7350|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 19:59:27.7350|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 19:59:27.7489|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 20:00:23.4952|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User 7018f3d3-9693-499e-92d0-6f3392fabb1c password validation failed: PasswordRequiresUpper. 
+2021-07-01 20:00:23.5212|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User ccac279d-ce70-4e1b-b70c-74d2fb910bad password validation failed: PasswordRequiresUpper. 
+2021-07-01 21:18:46.1355|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 21:18:49.9062|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 21:18:49.9394|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 21:18:49.9515|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 21:19:08.7135|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User 1a184efa-98f6-4f3e-870a-8529de55ac4f password validation failed: PasswordRequiresUpper. 
+2021-07-01 21:21:04.7757|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User 640536c1-b74a-494e-b201-02c97e71f539 password validation failed: PasswordRequiresUpper. 
+2021-07-01 21:24:12.1985|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 21:24:15.9425|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 21:24:15.9483|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 21:24:15.9646|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 21:24:22.7082|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:24:54.3415|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:25:21.5595|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:25:48.7070|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:26:00.2584|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 21:26:00.3144|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:26:04.7815|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 21:26:04.8153|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 21:29:11.7536|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 22:12:02.6300|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 22:12:05.8469|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 22:12:05.8469|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 22:12:05.8636|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:19:05.5810|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 23:19:11.5475|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 23:19:11.5778|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 23:19:11.5894|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:19:57.0331|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:20:13.3496|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:20:31.1953|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:20:43.5907|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:20:43.6310|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:20:59.0794|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:20:59.1197|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:31:01.6540|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 23:31:06.6233|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 23:31:06.6233|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 23:31:06.6421|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:31:32.7038|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:31:40.9467|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:31:41.0083|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:35:12.4098|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 23:35:20.3361|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 23:35:20.3417|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 23:35:20.3417|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:35:44.8709|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:36:41.0257|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:37:17.7458|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:37:28.8594|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:37:28.8594|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:37:34.5597|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:37:34.5847|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:46:12.8034|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 23:46:16.3839|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 23:46:16.3874|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 23:46:16.3874|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:46:21.1886|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:46:29.7596|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:46:29.8052|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:48:20.2434|0|DEBUG|Kino.Web.Program|init main 
+2021-07-01 23:48:24.0205|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-01 23:48:24.0338|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-01 23:48:24.0455|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-01 23:48:28.3628|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:48:49.9159|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:49:07.1942|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:49:27.8063|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:49:48.3174|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:49:56.7196|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:49:56.7196|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:50:01.6848|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:50:01.7055|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-01 23:50:06.5911|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-01 23:50:06.5911|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 

@@ -1,0 +1,126 @@
+2021-07-02 12:37:38.0185|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 12:40:36.8289|0|ERROR|Kino.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials p15sm2549664wmq.43 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials p15sm2549664wmq.43 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at Kino.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\User\Desktop\KinoBileti\Kino.Services\Implementation\EmailService.cs:line 57
+   at Kino.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\User\Desktop\KinoBileti\Kino.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at Kino.Services.ConsumeScopedHostedService.DoWork() in C:\Users\User\Desktop\KinoBileti\Kino.Services\ConsumeScopedHostedService.cs:line 35
+   at Kino.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\User\Desktop\KinoBileti\Kino.Services\ConsumeScopedHostedService.cs:line 22
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Kino.Web.Program.Main(String[] args) in C:\Users\User\Desktop\KinoBileti\Kino.Web\Program.cs:line 21
+2021-07-02 12:42:17.2802|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 12:43:36.2489|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 12:43:36.2489|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 12:43:36.2792|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 16:33:18.4858|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 16:33:29.8269|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 16:33:29.8269|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 16:33:29.8428|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 16:36:00.5386|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 16:38:37.4353|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 16:38:40.8317|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 16:38:40.8317|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 16:38:40.8501|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 16:38:50.7073|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 16:38:59.4945|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 16:38:59.5488|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 16:39:10.1275|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 16:39:10.1692|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 16:40:06.8881|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 16:41:29.6399|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 16:41:34.6647|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 16:41:34.6693|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 16:41:34.6693|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:18:29.0177|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:18:32.6323|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:18:32.6363|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:18:32.6363|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:23:42.8367|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:23:46.8354|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:23:46.8399|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:23:46.8585|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:23:59.9179|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:24:07.4089|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 17:24:07.4556|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:28:16.9665|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:28:22.1942|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:28:22.2002|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:28:22.2150|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:35:32.5707|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-02 17:43:56.9248|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:44:00.2479|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:44:00.2479|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:44:00.2654|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:50:52.7333|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:50:56.1706|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:50:56.1706|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:50:56.1845|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:51:06.5147|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:52:13.2682|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:52:17.3474|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:52:17.3474|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:52:17.3732|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:52:21.4709|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:52:29.0641|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 17:52:29.1185|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:54:46.0453|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:54:49.0137|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:54:49.0137|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:54:49.0310|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:54:53.5775|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:55:05.5770|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 17:55:05.5956|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:56:52.8306|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 17:56:56.8470|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 17:56:56.8470|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 17:56:56.8648|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 17:58:12.1154|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 17:59:53.0908|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 18:00:08.8723|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 18:00:08.8723|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 18:00:08.9228|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 18:00:12.1554|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 18:00:16.9221|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 18:00:17.0062|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 18:02:06.0957|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 18:02:17.0197|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 18:02:17.0197|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 18:02:17.0355|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 18:02:21.4025|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 18:02:24.8151|0|INFO|Kino.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2021-07-02 18:02:24.8441|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-02 22:51:04.1319|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 23:03:05.5720|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 23:05:29.9382|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 23:07:02.5046|0|DEBUG|Kino.Web.Program|init main 
+2021-07-02 23:07:14.4193|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-02 23:07:14.4193|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-02 23:07:14.4408|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-02 23:07:28.4905|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 

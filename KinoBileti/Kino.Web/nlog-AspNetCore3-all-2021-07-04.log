@@ -1,0 +1,120 @@
+2021-07-04 12:54:14.4354|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 12:54:31.0249|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 12:54:31.0615|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 12:54:31.0742|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 12:54:35.2434|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 12:56:16.1635|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 12:56:54.2385|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 12:57:51.4896|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 12:58:18.9421|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 13:01:45.4191|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 13:01:54.8123|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 13:01:54.8123|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 13:01:54.8293|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 13:03:22.1877|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 13:03:31.8040|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 13:03:31.8127|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 13:03:31.8127|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 13:04:16.7017|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 13:04:25.9398|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 13:04:25.9398|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 13:04:25.9553|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 13:06:30.3969|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 13:06:40.0296|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 13:06:40.0364|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 13:06:40.0364|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 13:24:02.5338|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 13:24:14.9719|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 13:24:15.0949|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 13:24:15.0949|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 13:24:19.0138|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 13:24:23.2511|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-07-04 22:32:37.0569|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 22:32:52.4270|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 22:32:52.4270|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 22:32:52.4454|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 22:32:52.9075|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (119ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[Role], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0 
+2021-07-04 22:32:52.9925|10100|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Kino.Repository.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:dd733357-158d-4a1a-bfb8-55f953e3e50c
+Error Number:207,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:dd733357-158d-4a1a-bfb8-55f953e3e50c
+Error Number:207,State:1,Class:16
+2021-07-04 22:50:10.1684|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 22:50:19.5147|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 22:50:19.5196|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 22:50:19.5196|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 22:50:19.9088|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (66ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[Role], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0 
+2021-07-04 22:50:19.9606|10100|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Kino.Repository.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:fdec12be-1ff7-4f25-b69d-16d0ce6805b0
+Error Number:207,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:fdec12be-1ff7-4f25-b69d-16d0ce6805b0
+Error Number:207,State:1,Class:16
+2021-07-04 22:51:56.3718|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 22:52:07.0797|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 22:52:07.0797|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 22:52:07.0954|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 22:54:23.3914|0|DEBUG|Kino.Web.Program|init main 
+2021-07-04 22:54:34.0329|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-04 22:54:34.0329|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-04 22:54:34.0510|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-07-04 22:54:46.7628|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 

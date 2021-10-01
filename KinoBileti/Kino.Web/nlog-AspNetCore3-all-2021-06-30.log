@@ -1,0 +1,17 @@
+2021-06-30 21:08:09.5076|0|DEBUG|Kino.Web.Program|init main 
+2021-06-30 21:08:13.9763|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-30 21:08:13.9831|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-30 21:08:13.9952|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-06-30 21:14:02.1802|0|DEBUG|Kino.Web.Program|init main 
+2021-06-30 21:14:05.6580|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-30 21:14:05.6580|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-30 21:14:05.6756|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-06-30 21:14:35.5030|0|INFO|Kino.Services.Implementation.ProductService|GetAllProducts was called! 
+2021-06-30 23:21:41.5705|0|DEBUG|Kino.Web.Program|init main 
+2021-06-30 23:21:44.6169|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-30 23:21:44.6202|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-30 23:21:44.6202|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
+2021-06-30 23:50:28.0552|0|DEBUG|Kino.Web.Program|init main 
+2021-06-30 23:50:31.5692|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-06-30 23:50:31.5986|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-06-30 23:50:31.6101|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\User\Desktop\KinoBileti\Kino.Web 
